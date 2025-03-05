@@ -1,11 +1,20 @@
 {
-    "name": "PPD Edit Photos",
-    "short_name": "Edit-PPD",
+    "name": "Edit Photo - PPD",
+    "short_name": "Edit Photo",
     "description": "Edit wallpapers before downloading them from pashapumadesign.com. Add Fractal Glass Effect like in Nothing Phone. Change Brightness, Contrast, Hue or Saturation. And more.",
     "id": "ppdedit",
     "theme_color": "#F3F1E2",
     "background_color": "#F3F1E2",
     "display": "standalone",
+    "file_handlers": [
+      {
+        "action": "/",
+        "accept": {
+          "image/jpeg": [".jpg", ".jpeg"],
+          "image/png": [".png"]
+        }
+      }
+    ],
     "orientation": "portrait",
     "dir": "ltr",
     "scope": "/",
